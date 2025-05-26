@@ -88,10 +88,10 @@ PowerShell connecting to unusual domains (Sentinel)
 
 ## Sources
 
-https://www.bleepingcomputer.com/news/security/kettering-health-hit-by-system-wide-outage-after-ransomware-attack/
-https://www.kaspersky.com/blog/interlock-ransomware-clickfix-attack/53414/
-https://www.picussecurity.com/resource/blog/interlock-clickfix-ransomware-healthcare-attack
-https://blog.sekoia.io/interlock-ransomware-evolving-under-the-radar/
+- https://www.bleepingcomputer.com/news/security/kettering-health-hit-by-system-wide-outage-after-ransomware-attack/
+- https://www.kaspersky.com/blog/interlock-ransomware-clickfix-attack/53414/
+- https://www.picussecurity.com/resource/blog/interlock-clickfix-ransomware-healthcare-attack
+- https://blog.sekoia.io/interlock-ransomware-evolving-under-the-radar/
 
 
 
