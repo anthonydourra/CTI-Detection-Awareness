@@ -9,21 +9,21 @@ The Interlock ransomware group has been actively targeting the healthcare sector
 
 ## TTPs Observed
 
-Intial Access: Fake CAPTCHAs and ClickFix tricks
+- Intial Access: Fake CAPTCHAs and ClickFix tricks
 
-- When a user clicks on a link, it takes them to a fake website with a fake CAPTCHA, which trick the user to use basic commands (CTRL+C, Win+R and CTRL+V) to copy and paste PowerShell commands into their run box.
+When a user clicks on a link, it takes them to a fake website with a fake CAPTCHA, which trick the user to use basic commands (CTRL+C, Win+R and CTRL+V) to copy and paste PowerShell commands into their run box.
 
-Execution: PowerShell commands are executed by the user unknowingly
+- Execution: PowerShell commands are executed by the user unknowingly
 Persistence: PowerShell scripts create Windows Registry Run Keys
 
-- After persistence is gained and system information is received by the attackers, they can then harvest credentials using various expolits.
+After persistence is gained and system information is received by the attackers, they can then harvest credentials using various expolits.
 
-Lateral Movement: Valid credentials are used to login to other systems via RDP
+- Lateral Movement: Valid credentials are used to login to other systems via RDP
 Collection and Exfiltration: Sensitive data is uploaded to Azure Blob Storage controlled by attackers and is published to an .onion site.
 
-Execution: Ransomware Deployment
+- Execution: Ransomware Deployment
     
-- After exfiltrating sensitive data, files are encrypted and a ransom is demanded. 
+After exfiltrating sensitive data, files are encrypted and a ransom is demanded. 
 
 This attack is two-fold: sensitve data is exfiltrated and then ransomware is deployed
 
