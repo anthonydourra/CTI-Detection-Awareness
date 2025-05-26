@@ -44,7 +44,7 @@ This attack is two-fold: sensitve data is exfiltrated and then ransomware is dep
 - Block access to domains with uncommon TLDs (.xyz, .top, .click, .etc)
 - Enable SmartScreen
 - Educate users to be on the lookout for fake CAPTCHAs and to report them immediately.
-- See the [Fake CAPTCHAs](../Security_Awareness/Fake_CAPTCHAs.md) in the Security_Awareness directory for a sample security training and awareness email to be sent to users. 
+- See the [Fake CAPTCHAs](../Security_Awareness/Fake_CAPTCHAs.md) file in the Security_Awareness directory for a sample security training and awareness email to be sent to users. 
 
 ## Detection Guidance
 
