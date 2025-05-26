@@ -1,9 +1,0 @@
-{
-    "cells": [
-        {
-            "kind": "code",
-            "source": "#Browser spawns PowerShell (Microsoft XDR):\n\n    DeviceProcessEvents\n    | where InitiatingpProcessFilename has_any (\"chrome.exe, msedge.exe, \"firefox.exe\")\n    | where FileName == \"powershell.exe\"\n    | where ProcessCommandLine has_any (\"Invoke-WebRequest\", \"IEX\", \".ps1\", \"DownloadFile\")\n    | project Timestamp, DeviceName, InitiatingProcessFileName, FileName, ProcessCommandLine\n\n#Browser accesses suspicious CAPTCHA domain (Microsoft XDR)\n\n    DeviceNetworkEvents\n    | where RemoteUrl has \"captcha\"\n    | where RemoteUrl matches regex @\".*\\.(xyz|top|click|ru|cn)\"\n    | where InitiatingProcessFileName has_any (\"chrome.exe, \"msedge.exe\", \"firefox.exe\")\n    | project Timestamp, DeviceName, RemoteUrl, InitiatingProcessFileName\n\n#User executes suspicious file from Downloads folder (Microsoft XDR)\n\n    DeviceProcessEvents\n    | where FolderPath has \"\\\\Downloads\\\\\"\n    | where FileName has_any (\".exe\", \".js\", \".vbs\", \".ps1\")\n    | where InitiatingProcessFileName has_any (\"chrome.exe\", \"msedge.exe\", firefox.exe\")\n    | project Timestamp, DeviceName, FileName, FolderPath, InitiatingProcessFileName\n\n#PowerShell connecting to unusual domains (Microsoft Sentinel)\n\n    DeviceNetworkEvents\n    | where InitiatingProcessName == \"powershell.exe\"\n    | where RemoteUrl matches regex (@.*\\.(xyz|click|ru|cn|top)\"\n    | summarize count() by RemoteUrl, DeviceName, bin(Timestamp, 1h)\n",
-            "outputs": []
-        }
-    ]
-}
