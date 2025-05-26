@@ -1,7 +1,7 @@
 # Interlock Ransomware 
-DATE: 2025-05-26
-Industry/Sector Relevance: Healthcare, Public Services, Education, Aerospace, Manufacturing, Technology, among others. 
-Geolocation: United States, Europe
+**DATE:** 2025-05-26
+**Industry/Sector Relevance:** Healthcare, Public Services, Education, Aerospace, Manufacturing, Technology, among others. 
+**Geolocation:** United States, Europe
 
 ## Summary
 
