@@ -19,7 +19,7 @@ When a user clicks on a link, it takes them to a fake website with a fake CAPTCH
 After persistence is gained and system information is received by the attackers, they can then harvest credentials using various expolits.
 
 - Lateral Movement: Valid credentials are used to login to other systems via RDP
-Collection and Exfiltration: Sensitive data is uploaded to Azure Blob Storage controlled by attackers and is published to an .onion site.
+- Exfiltration: Sensitive data is uploaded to Azure Blob Storage controlled by attackers and is published to an .onion site.
 
 - Execution: Ransomware Deployment
     
