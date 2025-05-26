@@ -53,6 +53,8 @@ Data Encryption for Impact T1486
 
 ## Microsoft Defender XDR and Microsoft Sentinel Queries
 
+For Kusto Notebook see 'interlock_ransomware_attack.knb' under Direction_Queries directory.
+
 Browser spawns PowerShell (XDR):
 
     DeviceProcessEvents
