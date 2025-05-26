@@ -22,4 +22,4 @@ A practical cybersecurity portfolio focused on transforming threat intelligence 
 
 ## About Me
 
-I am a leader of the cybersecurity program at my organization, focusing on actionable defenses, adversary tracking, and impactful education. 
+I am a leader of the cybersecurity program at my organization focusing on actionable defenses, adversary tracking, and impactful education. 
