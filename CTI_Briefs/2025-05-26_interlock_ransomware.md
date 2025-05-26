@@ -19,7 +19,7 @@ When a user clicks on a link, it takes them to a fake website with a fake CAPTCH
 After persistence is gained and system information is received by the attackers, they can then harvest credentials using various expolits.
 
 - Lateral Movement: Valid credentials are used to login to other systems via RDP
-- Exfiltration: Sensitive data is uploaded to Azure Blob Storage controlled by attackers and is published to an .onion site.
+- Collection & Exfiltration: Sensitive data is uploaded to Azure Blob Storage controlled by attackers and is published to an .onion site.
 
 - Execution: Ransomware Deployment
     
@@ -29,22 +29,25 @@ This attack is two-fold: sensitve data is exfiltrated and then ransomware is dep
 
 ## Mitre Att&ck Mapping
 
-- Initial Access             TA0001
-- Phishing                   T1566
-- Spearphishing via Link     T1566.002
-- Powershell                 T1059.01
-- User Execution             T1562.001
-- Lateral Movement           TA0008
-- Remote Services: RDP       T1021.001
-- Valid Accounts             T1078
-- Data Encryption for Impact T1486
+- Initial Access                             TA0001
+- User Execution: Malicious Copy and Paste   T1204.004
+- Phishing                                   T1566
+- Spearphishing via Link                     T1566.002
+- Powershell                                 T1059.01
+- Lateral Movement                           TA0008
+- Remote Services: RDP                       T1021.001
+- Valid Accounts                             T1078
+- Collection                                 TA0009
+- Exfiltration                               TA0010
+- Data Encryption for Impact                 T1486
 
 ## Recommended Mitigations
 
 - Block access to domains with uncommon TLDs (.xyz, .top, .click, .etc)
 - Enable SmartScreen
 - Educate users to be on the lookout for fake CAPTCHAs and to report them immediately.
-- See the [Fake CAPTCHAs](../Security_Awareness/Fake_CAPTCHAs.md) file in the Security_Awareness directory for a sample security training and awareness email to be sent to users. 
+- See the [Fake CAPTCHAs](../Security_Awareness/Fake_CAPTCHAs.md) file in the Security_Awareness directory for a sample security training and awareness email to be sent to users.
+- Maintain offline backups
 
 ## Detection Guidance
 
