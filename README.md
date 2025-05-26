@@ -16,7 +16,7 @@ A practical cybersecurity portfolio focused on transforming threat intelligence 
 ### Awareness and Impacts
 - Executive summaries of threat impact
 - Security training content based on real incidents
-- Email templates and guidance sent to users
+- Email templates and guidance for users
 
 ---
 
