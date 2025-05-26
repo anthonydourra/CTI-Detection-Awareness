@@ -53,7 +53,7 @@ This attack is two-fold: sensitve data is exfiltrated and then ransomware is dep
 
 ## Microsoft Defender XDR and Microsoft Sentinel Queries
 
-For downloadable Kusto file, see the [Interlock Ransomware Attack Kusto notebook](Detection_Queries/interlock_ransomware_attack.knb) located in the Detection_Queries directory.
+For downloadable Kusto file, see the [Interlock Ransomware Attack Kusto notebook](../Detection_Queries/interlock_ransomware_attack.knb) located in the Detection_Queries directory.
 
 Browser spawns PowerShell (XDR):
 
