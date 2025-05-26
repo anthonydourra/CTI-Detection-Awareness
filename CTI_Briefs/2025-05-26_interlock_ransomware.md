@@ -5,7 +5,7 @@
 
 ## Summary
 
-The Interlock ransomware group has been actively targeting the healthcare sector, causing significant disruptions and raising serious concerns about patient data privacy. 
+The Interlock ransomware group has been actively targeting the healthcare sector causing significant disruptions and raising serious concerns about patient data privacy. While they have a strong prescence targeting the healthcare industry, they've demonstrated the capacity and willingness to target other industries as well. 
 
 ## TTPs Observed
 
