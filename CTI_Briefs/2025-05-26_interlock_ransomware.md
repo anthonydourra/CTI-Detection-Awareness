@@ -11,7 +11,7 @@ The Interlock ransomware group has been actively targeting the healthcare sector
 
 - Intial Access: Fake CAPTCHAs and ClickFix tricks
 
-When a user clicks on a link, it takes them to a fake website with a fake CAPTCHA, which trick the user to use basic commands (CTRL+C, Win+R and CTRL+V) to copy and paste PowerShell commands into their run box.
+When a user clicks on a link, it takes them to a website with a fake CAPTCHA, which trick the user to use basic commands (CTRL+C, Win+R and CTRL+V) to copy and paste PowerShell commands into their run box.
 
 - Execution: PowerShell commands are executed by the user unknowingly
 - Persistence: PowerShell scripts create Windows Registry Run Keys
