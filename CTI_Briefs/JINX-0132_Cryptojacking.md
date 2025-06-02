@@ -9,7 +9,7 @@ A newly identified cryptojacking campaign dubbed JINX-0132, is actively targetin
 
 ## TTPs Observed
 
-- Intial Access: Explot public facing application
+- Intial Access: Exploit public facing application
 
     - Exploiting misconfigured Docker, Gitea, Consul, and Nomad APIs. 
 
