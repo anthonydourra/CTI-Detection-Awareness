@@ -1,4 +1,4 @@
-# JINX-0132 Cryotojacking Campaign 
+# JINX-0132 Cryptojacking Campaign 
 - **DATE:** 2025-06-02
 - **Targeted Technologies:** Docker, HashiCorp Nomad, HashiCorp Consul, Gitea
 - **Geolocation:**  China, United States, Germany, Singapore, Finland, the Netherlands, and the United Kingdom.
